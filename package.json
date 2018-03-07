@@ -1,0 +1,25 @@
+{
+  "name": "generater-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --client-log-level none --color --inline --hot --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js --progress --color"
+  },
+  "author": "renyuzhe",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-loader": "^6.4.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "ts-node": "^5.0.0",
+    "tsconfig-paths": "^3.1.1",
+    "typescript": "^2.7.2",
+    "uglifyjs-webpack-plugin": "^1.2.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^3.1.0",
+    "webpack-merge": "^4.1.2"
+  }
+}
